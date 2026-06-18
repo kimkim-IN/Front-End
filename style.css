@@ -1,0 +1,85 @@
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #ffbceb;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #a17347;
+}
+
+.topnav a {
+    float:left;
+    color: #ffbceb;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.topnav a:hover {
+    background-color: #f5f7a0;
+    color: #2b6fa7;
+}
+
+.sellcard {
+    float: left;
+    width: 23.40%;
+    margin: 10px;
+}
+
+.sellcard img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descricao {
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.valor {
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.compra {
+    text-align: center;
+    background-color: #f5f7a0;
+    color: #2b6fa7;
+    padding: 10px;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp8959169.jpg");
+    font-family: Arial;
+    padding: 10px;
+    background-color: #b3875e;
+}
+
+@media screen and (max-width: 800px) {
+    .topnav a {
+        float: none;
+        width: 100%; }
+    .sellcard {
+        width: 100%;
+    }
+}
